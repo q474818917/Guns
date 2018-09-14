@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.HouseMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.House">
+		<id column="Contractno" property="contractno" />
+		<result column="Costomer" property="costomer" />
+		<result column="Cardno" property="cardno" />
+		<result column="Buildarea" property="buildarea" />
+		<result column="Price" property="price" />
+		<result column="Savedate" property="savedate" />
+		<result column="Houseaddr" property="houseaddr" />
+		<result column="Use" property="use" />
+		<result column="State" property="state" />
+		<result column="Basj" property="basj" />
+		<result column="Qfdysj" property="qfdysj" />
+		<result column="Dy_sj" property="dy_sj" />
+		<result column="Ba_sj" property="ba_sj" />
+		<result column="Csdjsj" property="csdjsj" />
+		<result column="Scmj" property="scmj" />
+		<result column="Begindate" property="begindate" />
+		<result column="Enddate" property="enddate" />
+		<result column="Firstvalue" property="firstvalue" />
+		<result column="Dj_money" property="dj_money" />
+		<result column="Secondvalue" property="secondvalue" />
+		<result column="Lastvalue" property="lastvalue" />
+		<result column="Firstdate" property="firstdate" />
+		<result column="Dj_date" property="dj_date" />
+		<result column="Seconddate" property="seconddate" />
+		<result column="Lastdate" property="lastdate" />
+		<result column="CreateTime" property="createTime" />
+		<result column="UpdateTime" property="updateTime" />
+	</resultMap>
+
+</mapper>

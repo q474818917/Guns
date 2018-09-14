@@ -17,11 +17,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class WebConfig {
 
-    @Bean
+    /*@Bean
     @ConditionalOnProperty(prefix = RestProperties.REST_PREFIX, name = "auth-open", havingValue = "true", matchIfMissing = true)
     public AuthFilter jwtAuthenticationTokenFilter() {
         return new AuthFilter();
-    }
+    }*/
 
     @Bean
     public DataSecurityAction dataSecurityAction() {
